@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans';
+}
+.head{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.section-1{
+    background-color: red;
+    /* position: absolute; */
+}
+/* ************** Header-container**************** */
+.container{
+    background-color:rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+/* ************** header-icon**************** */
+.icon{
+    color:rgb(59, 71, 244);
+    display: flex;
+}
+/* ************** Header-menu-tool**************** */
+.tool ul{
+    display: flex;
+}
+.tool li{
+    color: black;
+    padding-left: 10px;
+    display: flex;
+    list-style: none;
+}
+.tool a{
+    text-decoration: none;
+    color:black;
+}
+/* ************** Header-menu**************** */
+.menu ul{
+   padding: 15px;
+    display: flex;
+}
+.menu a{
+text-decoration: none;
+color: black;
+}
+.menu li{
+    color: black;
+    padding-left: 10px;
+    list-style: none;
+}
+/* ************** section-1 **************** */
+.pic{
+    display: flex;
+}
+/* ************** section-1 text**************** */
+.text{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.text li{
+list-style: none;
+font-size: 40px;
+}
+/* ************** section-1 image**************** */
+.pic img{
+    margin-top: -3px;
+    margin-left: 45px;
+    width: 500px;
+}
+/* ************** upload-button**************** */
+.batn{
+    margin-left: -33%;
+    margin-top:26%;
+    position: relative;
+}
+.batn input{
+    position: relative;
+    background-color: rgb(59, 71, 244);
+    padding: 3px 3px 3px 3px ;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px ;
+    font-size: x-large;
+}
+.batn p{
+    margin-left: 10px;
+}
+.box-image img{
+    position: absolute;
+    width: 35%;
+    margin-left: 50%;
+    margin-top: -38%;
+}
+/* ************** section-1_footer**************** */
+.foot-text{
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -10%;
+}
+.foot-text li{
+list-style: none;
+}
+.foot2-text{
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -7%;
+    font-size: small;
+}
+.foot2-text li{
+    list-style: none;
+}
+.foot2-text span{
+    color: skyblue;
+}
+/* ************** section-2**************** */
+.section-2{
+    background-color:rgb(237, 237, 237);
+    margin-top: 7%;
+}
+.section-2_heading{
+    color: rgb(34, 95, 227);
+    padding-top: 50px;
+text-align: center;
+font-size:x-large;
+}
+.heading_text pre{
+    margin-left: 20%;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.section-2_menu-bar ul{
+    padding-top: 5%;
+display: flex;
+justify-content: center;
+}
+.section-2_menu-bar li{
+    font-size: larger;
+list-style: none;
+padding: 15px;
+}
+.section-2_menu-bar a{
+text-decoration: none;
+color: black;
+}
+/* ************** section-3**************** */
+.section-3_heading{
+    text-align: center;
+    font-size: x-large;
+}
+.section-3_image1{
+    margin-top: 30px;
+    display: flex;
+}
+.image1-heading{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.heading-list_1{
+    margin-left: 30%;
+}
+.heading-list_1 li{
+    list-style: none;
+}
+.heading-list_2{
+    padding-top: 8px;
+    margin-left: 35%;
+}
+/* ************** section-4**************** */
+.section-4_image2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-4_image2 img{
+margin-left: -40%;
+}
+.image2-heading{
+margin-left: 30%;
+margin-top:20%;
+}
+.heading-list_4{
+    margin-left: 30%;
+}
+.heading-list_4 li{
+    list-style: none;
+}
+.heading-list_5{
+    padding-top: 20px;
+    margin-left: 35%;
+}
+/* ************** section-5**************** */
+.section-5_image3 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-5_image3 img{
+    margin-left: 4%;
+}
+.image3-heading{
+    margin-left: -30%;
+    margin-top: 20%;
+}
+.heading-list_6{
+    margin-left: -30%;
+}
+.heading-list_6 li{
+    list-style: none;
+}
+.heading-list_7{
+    padding-top: 20px;
+    margin-left: -28%;
+}
+.cut_image{
+    margin-left: 80%;
+    margin-top: -20%;
+}
+/* ************** section-6**************** */
+.section-6{
+    background-color:rgb(237, 237, 237);
+    padding-top: 7%;
+}
+.section-6_heading li{
+    list-style: none;
+}
+.section-6_heading2 li{
+list-style: none;
+}
+.section-6_batn input{
+    margin-top: 30px;
+    background-color:rgb(34, 95, 227);
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.section-6_box{
+    margin-left: 15%;
+    color: rgb(34, 95, 227);
+}
+/* ************** section-7**************** */
+.section-7_Box{
+background-color:rgb(34, 95, 227); 
+color: white;
+}
+.section-7_heading h2{
+    padding-top: 20px;
+margin-left: 20%;
+}
+.section-7_list li{
+    list-style:none;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+/* **************section-7_email**************** */
+.email-1{
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+/* ************** discription-box**************** */
+.dis_list_group{
+    display: flex;
+    justify-content: space-between;
+}
+.dis_list-1{
+    margin-left: 20px;
+  
+}
+.dis_list-1 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.dis_list-3 li{
+list-style: none;
+padding-top: 10px;
+}
+.dis_list-4 li{
+    padding-top: 10px;
+    list-style:none;
+}
+/* **************footer**************** */
+.footer{
+    background-color: black;
+    color: white;
+}
+.line-1{
+    padding: 5px;
+}
+.line-1 h3{
+    text-align: center;
+}
+.line-1 p{
+    padding: 5px;
+text-align: center;
+/* **************footer-icon**************** */
+}
+.footer-icon {
+color: white;
+font-size: larger;
+}
+.footer-icon i{
+justify-content: center;
+}
